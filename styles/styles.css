@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgba(150, 146, 146, 0.63);
+    cursor: pointer;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+section {
+    margin: 50px;
+    width: 800px;
+}
+
+ul, ol {
+    margin: 50px;
+}
+
+li {
+    padding: 5px;
+}
+
+img {
+    width: 400px;
+}
+
